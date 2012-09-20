@@ -3,7 +3,7 @@ Repro for [symfony issue #5563](https://github.com/symfony/symfony/issues/5563).
 # Steps
 
 1. Install dependencies with composer.
-1. Run `./repro help foo`.
+1. Run `./repro help foo`
 
 # Expected result
 
