@@ -1,0 +1,18 @@
+#!/usr/bin/php
+<?php
+
+require_once 'vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Output\OutputInterface;
+
+$console = new Application();
+$console
+        ->register('foo')
+        ->addOption('url', 'u', InputOption::VALUE_REQUIRED, 'A url.', 'http://example.com/test.txt')
+        ->setCode(function () { exit(0); })
+;
+$console->run();
