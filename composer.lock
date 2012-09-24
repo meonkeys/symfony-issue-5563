@@ -1,32 +1,32 @@
 {
-    "hash": "269c2cc4db3a2ab5c66771848d0c4280",
+    "hash": "b3459eee5dccf8ec465b58c4003dce30",
     "packages": [
         {
             "name": "symfony/console",
-            "version": "v2.1.2",
+            "version": "2.1.x-dev",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console",
-                "reference": "v2.1.0-RC2"
+                "reference": "57d03f87db82eee2d63c2a6a7f767c2e376f6d35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Console/zipball/v2.1.0-RC2",
-                "reference": "v2.1.0-RC2",
+                "url": "https://github.com/symfony/Console/zipball/57d03f87db82eee2d63c2a6a7f767c2e376f6d35",
+                "reference": "57d03f87db82eee2d63c2a6a7f767c2e376f6d35",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "2012-08-22 13:48:41",
+            "time": "1348488710",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.1-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Symfony\\Component\\Console": ""
@@ -54,7 +54,7 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ]
+    "stability-flags": {
+        "symfony/console": 20
+    }
 }
